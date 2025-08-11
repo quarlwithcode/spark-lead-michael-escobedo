@@ -146,6 +146,7 @@ body {
     position: relative;
     background: linear-gradient(135deg, #FFFFFF 0%, #F9FAFB 100%);
     padding-top: 80px;
+    padding-bottom: 40px;
 }
 
 .hero-bg {
@@ -751,6 +752,9 @@ body {
     padding: 80px 0;
     position: relative;
     overflow: hidden;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    width: 100vw;
 }
 
 .cta-section::before {
@@ -982,6 +986,10 @@ body {
 }
 
 @media (max-width: 768px) {
+    .hero {
+        padding-bottom: 60px;
+    }
+    
     .hamburger {
         display: flex;
     }
