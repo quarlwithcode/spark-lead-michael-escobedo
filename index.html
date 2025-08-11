@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Escobedo | AI-Powered Marketing Automation</title>
+    <meta name="description" content="Turn AI into your 24/7 marketing team. Strategic content systems that actually drive revenue.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-name">Michael Escobedo</span>
+                <span class="brand-tag">AI Marketing Systems</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="https://calendly.com/michael-bricksy/30min" class="nav-link nav-cta" target="_blank">Book Free Call</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="floating-orb orb-1"></div>
+            <div class="floating-orb orb-2"></div>
+            <div class="floating-orb orb-3"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">Founder @bricksy.net</div>
+                    <h1 class="hero-title">Turn AI Into Your <span class="gradient-text">24/7 Marketing Team</span></h1>
+                    <p class="hero-subtitle">I build content systems that generate leads while you sleep</p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">3x</span>
+                            <span class="stat-label">Content Output</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">200%</span>
+                            <span class="stat-label">Lead Growth</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50%</span>
+                            <span class="stat-label">Less Time</span>
+                        </div>
+                    </div>
+                    <div class="hero-cta">
+                        <a href="#ai-tool" class="btn btn-primary btn-glow">Get Your AI Strategy</a>
+                        <a href="#resources" class="btn btn-ghost">Free Resources</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="michael-image-v2.webp" alt="Michael Escobedo - AI Marketing Expert" loading="eager">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ai-tool" class="ai-tool-section">
+        <div class="tool-container">
+            <div class="tool-header">
+                <h2 class="tool-title">AI Instagram Strategy Generator</h2>
+                <p class="tool-subtitle">Get a personalized content strategy in 30 seconds</p>
+            </div>
+            <div class="tool-content">
+                <div class="tool-input-panel glass-panel">
+                    <form id="aiToolForm">
+                        <div class="input-group">
+                            <label for="industry">Your Industry</label>
+                            <select id="industry" required>
+                                <option value="">Select your industry...</option>
+                                <option value="ecommerce">E-commerce</option>
+                                <option value="saas">SaaS / Software</option>
+                                <option value="coaching">Coaching / Consulting</option>
+                                <option value="agency">Marketing Agency</option>
+                                <option value="creator">Content Creator</option>
+                                <option value="fitness">Health & Fitness</option>
+                                <option value="realestate">Real Estate</option>
+                                <option value="finance">Finance / Crypto</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <label for="goal">Primary Goal</label>
+                            <select id="goal" required>
+                                <option value="">What's your main goal?</option>
+                                <option value="leads">Generate More Leads</option>
+                                <option value="sales">Direct Sales</option>
+                                <option value="brand">Build Brand Authority</option>
+                                <option value="engagement">Boost Engagement</option>
+                                <option value="followers">Grow Followers</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <label for="audience">Target Audience</label>
+                            <input type="text" id="audience" placeholder="e.g., Startup founders, Gen Z consumers..." required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Generate My Strategy</button>
+                    </form>
+                </div>
+                <div class="tool-output-panel glass-panel">
+                    <div id="strategyOutput" class="strategy-output">
+                        <div class="output-placeholder">
+                            <div class="placeholder-icon">🤖</div>
+                            <p>Your personalized AI strategy will appear here</p>
+                        </div>
+                    </div>
+                    <div id="emailCapture" class="email-capture" style="display: none;">
+                        <p class="capture-text">Save your strategy & get weekly AI marketing tips</p>
+                        <form id="strategyCaptureForm">
+                            <input type="email" id="strategyEmail" placeholder="Your email" required>
+                            <button type="submit" class="btn btn-primary">Save Strategy</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resources" class="resources-section">
+        <div class="resources-container">
+            <h2 class="section-title">Start Growing Today</h2>
+            <p class="section-subtitle">Free resources to transform your marketing</p>
+            <div class="resources-grid">
+                <div class="resource-card glass-card">
+                    <div class="card-glow"></div>
+                    <div class="card-image">
+                        <img src="ig-dm-mastery-kit.png" alt="Instagram DM Mastery Kit" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3>Instagram DM Mastery Kit</h3>
+                        <p>Convert followers into customers with proven message templates</p>
+                        <div class="card-features">
+                            <span class="feature-tag">20+ Templates</span>
+                            <span class="feature-tag">Psychology Tips</span>
+                            <span class="feature-tag">Automation Guide</span>
+                        </div>
+                        <a href="https://shop.beacons.ai/thesocialmediamarketingclub/4da5cf9f-8d7c-423d-9930-3f8a441775be" target="_blank" class="btn btn-secondary btn-full">Get Free Access</a>
+                    </div>
+                </div>
+                <div class="resource-card glass-card">
+                    <div class="card-glow"></div>
+                    <div class="card-image">
+                        <img src="find-chatgpt-audience.webp" alt="Find Your Audience With ChatGPT" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3>Find Your Audience With ChatGPT</h3>
+                        <p>AI prompts to identify and reach your perfect customers</p>
+                        <div class="card-features">
+                            <span class="feature-tag">50+ Prompts</span>
+                            <span class="feature-tag">Audience Research</span>
+                            <span class="feature-tag">Content Ideas</span>
+                        </div>
+                        <a href="https://shop.beacons.ai/thesocialmediamarketingclub/805ff0b6-3533-4b26-80cb-b97ba4dc29f1" target="_blank" class="btn btn-secondary btn-full">Download Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-container">
+            <h2 class="cta-title">Ready for <span class="gradient-text">Bigger Results?</span></h2>
+            <div class="cta-buttons">
+                <a href="https://calendly.com/michael-bricksy/30min" target="_blank" class="btn btn-primary btn-glow">Book Free Strategy Call</a>
+                <a href="services.html" class="btn btn-white">View All Services</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <p>© 2024 Michael Escobedo | Bricksy.net</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://beacons.ai/thesocialmediamarketingclub" target="_blank">Beacons</a>
+                    <a href="mailto:michael@bricksy.net">Contact</a>
+                    <a href="https://instagram.com/michaelescobedo" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="cursor-glow"></div>
+    <script src="script.js"></script>
+</body>
+</html>
